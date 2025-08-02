@@ -1,12 +1,10 @@
-import { Link } from "expo-router";
+
 import { Text, View, StyleSheet } from "react-native";
 
 export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Bienvenue dans CoachIAApp !</Text>
-      <Link href={"/about"} style={styles.button}>
-      Aller à la page à Propos</Link>
     </View>
   );
 }
