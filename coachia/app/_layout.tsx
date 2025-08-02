@@ -6,9 +6,12 @@ export default function RootLayout() {
       <Stack.Screen 
         name="index" 
         options={{
-          headerTitle: "CoachIA",
+          headerTitle: "Coach IA",
       }} />
-      <Stack.Screen name="about" />
+      <Stack.Screen name="about" 
+      options={{
+        headerTitle: "À propos"
+      }}/>
     </Stack> 
   );
 }

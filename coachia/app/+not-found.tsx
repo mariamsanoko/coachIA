@@ -1,13 +1,17 @@
-import { Link } from "expo-router";
 import { Text, View, StyleSheet } from "react-native";
+import { Link, Stack } from "expo-router";
 
-export default function Index() {
+
+export default function NotFoundScreen() {
   return (
+    <>
+    <Stack.Screen options={{ title: "Oups! la page n'existe pas !"}} ></Stack.Screen>
     <View style={styles.container}>
       <Text style={styles.text}>Bienvenue dans CoachIAApp !</Text>
-      <Link href={"/about"} style={styles.button}>
-      Aller à la page à Propos</Link>
+      <Link href={"/"} style={styles.button}>
+      retourner accueil</Link>
     </View>
+    </>
   );
 }
 
