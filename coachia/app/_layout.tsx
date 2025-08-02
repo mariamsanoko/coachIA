@@ -5,12 +5,20 @@ export default function RootLayout() {
     <Stack>
       <Stack.Screen 
         name="index" 
-        options={{
-          headerTitle: "Coach IA",
-      }} />
+          options={{
+            headerTitle: "Coach IA",
+            headerLeft: () => <></>
+      }} 
+    />
       <Stack.Screen name="about" 
-      options={{
-        headerTitle: "À propos"
+        options={{
+          headerTitle: "À propos"
+      }}
+    />
+      <Stack.Screen 
+        name="+not-found" 
+        options={{
+          headerShown: false,
       }}/>
     </Stack> 
   );
