@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "coach-ia",
-    "slug": "coach-ia",
+    "name": "coachia",
+    "slug": "coachia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
