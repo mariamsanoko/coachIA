@@ -5,7 +5,7 @@ import { Link, Stack } from "expo-router";
 export default function NotFoundScreen() {
   return (
     <>
-    <Stack.Screen options={{ title: "Oups! la page n'existe pas !"}} ></Stack.Screen>
+    <Stack.Screen options={{ title: "Oups! la page n'existe pas !"}} />
     <View style={styles.container}>
       <Text style={styles.text}>Bienvenue dans CoachIAApp !</Text>
       <Link href={"/"} style={styles.button}>
